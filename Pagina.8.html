@@ -1,60 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Energia Oceânica</title>
+h1 {
+        color: rgb(219, 215, 215);
+        font-family: Jockey One;
+        font-size: 70px;
+        text-shadow: 4px 4px 5px rgba(0,0,0,0, 0.3);
+        text-align: center;
+    }
+body {
+  background-color: 7F9DCA;
+  background-size: cover;          
+  background-position: center;    
+  background-repeat: no-repeat;    
+  background-attachment: fixed;    
+  height: 100vh;                 
+  margin: 0;
+}
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+.elemento-transparente {
+  opacity: 0.5; 
+}
 
-    <div class="caixa">
+img {
+    display: block; 
+     margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto; 
+    }
+.meu-botao {
+    background-color: #D5E6FF;
+    padding: 18px 180px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block; 
+    border-radius: 90px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
 
-        <div class="hora">
-            9:30
-        </div>
+.search-icon {
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 28px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   position: absolute;
+  top: 15px;
+  right: 15px;
+}
 
-        <div class="bola"></div>
 
-        <div class="titulo">
+.arrow-left {
+  position: absolute;
+  right: 25px;           
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+}
 
-            <h1>ENERGIA OCEÂNICA</h1>
-
-            <div class="lupa">
-                O
-            </div>
-
-        </div>
-
-        <div class="texto">
-
-            <p>
-                <b>Características:</b>
-                É a energia renovável obtida a partir dos oceanos,
-                através do aproveitamento do movimento das ondas,
-                marés e correntes marinhas.
-            </p>
-
-            <p>
-                <b>Pontos fortes:</b>
-                Previsibilidade das marés, alta densidade energética
-                e baixo impacto visual.
-            </p>
-
-            <p>
-                <b>Pontos fracos:</b>
-                Custo elevado, manutenção complexa e impacto na fauna marinha.
-            </p>
-
-            <p>
-                <b>Local ideal:</b>
-                Regiões costeiras com alta amplitude de marés
-                ou ondas intensas.
-            </p>
-
-        </div>
-
-    </div>
-
-</body>
-</html>
+a {
+  text-decoration: none;
+  color: inherit;
+}
